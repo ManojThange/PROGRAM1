@@ -1,0 +1,31 @@
+#containor{
+    width: 600px;
+    height: 300px;
+    background-color:black;
+    display: grid;
+    grid-template-rows: 100px 100px 100px;
+    grid-template-columns: 100px 100px 100px;
+    /* animation-name: color;
+    animation-duration: 5s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: normal; */
+
+    animation: color 3s ease-out 0s infinite normal;
+}
+
+.item{
+    width: 100px;
+    height: 50px;
+    background-color: greenyellow;
+    border: 2px solid black;
+}
+@keyframes color{
+    from{background-color: darkcyan;
+    }
+    to{background-color: red;
+    width: 200px;
+    }
+
+}
